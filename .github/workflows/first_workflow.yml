@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: Display some Text
         run: echo "This is my first GitHub Action Workflow!"
+      - name: Command in Multiline
+        run: |
+           node -v
+           npm -v
